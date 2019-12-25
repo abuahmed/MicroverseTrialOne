@@ -7,21 +7,29 @@
   </head>
 
   <body>
-    <p>Hello World, we are software developers</p>
+    <h1 id="title">Pizaa survey</h1>
+    <p id="description">Survey for Pizza service.</p>
+    <form id="survey-form">
+      <label id="name-label">Name</label>
+      <input type="text" placeholder="Name" id="name">
+      <label id="email-label">Email</label>
+      <input type="email" placeholder="Email" id="email">
+      <label id="number-label">Number</label>
+      <input type="number" placeholder="Number" min="9" max="12" id="number">
+      <select id="dropdown">
+        <option>anything</option>
+      </select>
+      <input type="radio" name="Gender">
+      <input type="radio" name="Gender">
+      <input type="checkbox" value="City1">
+      <input type="checkbox" value="City2">
+      <input type="checkbox" value="City3">
+      <textarea>comments.</textarea>
+      <input id="submit" type="submit" value="sumbit">
+    </form>
+
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <!--
-
-    Hello Camper!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
     <script  src="js/index.js"></script>
     
   </body>
